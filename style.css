@@ -1,0 +1,127 @@
+/* NAME         : VIPUL AGRAWAL
+   ROLL NUMBER  : 37
+   SECTION      : 2B8> */
+
+* {
+    font-size: 18px;
+    font-family: Arial;
+    line-height: 35px;
+}
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 8px solid cyan;
+    margin-left:70px;
+    margin-right:70px;
+    -webkit-box-shadow: 0px 4px 18px 12px rgba(89,110,109,1);
+    -moz-box-shadow: 0px 4px 18px 12px rgba(89,110,109,1);
+    box-shadow: 0px 4px 18px 12px rgba(89,110,109,1);
+}
+#name
+{
+ 
+font-weight: bold;
+font-size: 32px;
+position: absolute;
+margin-top: 17px;
+padding-left: 340px;
+    
+}
+#email
+{
+    text-align: right;
+}
+#email span{
+   font-weight: bold;
+
+}
+
+h3{
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+   
+}
+ul li{
+    line-height: 35px;
+}
+#heading
+{
+    font-weight: bold;
+    font-size: 10px;
+    border: 1px solid black;
+
+}
+td{
+    width:40%
+}
+tr
+{
+    width:40%
+  
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+#course
+{
+    font-weight: bold;
+}
+.ts #course::after{
+    content: ":";
+    position: absolute;
+    right: 10px;
+}
+.ts #course {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    padding-right: 10px;
+  }
+.inter
+{
+    font-weight: bold;
+    font-size: 19px;
+}
+.cc span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer .vp
+{
+ float: right;
+}
+.hr
+{
+    margin-top:-10px;
+    width: 100%;
+    color:cyan;
+
+}
+.project .pro::after{
+    content: ":";
+    position: absolute;
+    right: 10px;
+}
+.project .pro {
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  .project a{
+      text-decoration: none;
+  }
+  .project a:hover{
+      color:blue;
+      text-decoration: underline;
+  }
